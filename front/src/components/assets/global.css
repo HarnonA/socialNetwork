@@ -1,0 +1,31 @@
+:root {
+    --color-background: #F3AD2E;
+    --color-black-transparent: #ffffff4f;
+    --color-primary-text: #fff;
+    --color-primary-light: #916bea; 
+    --color-post-bg: #fff;
+    --color-post-text: #000;
+    --color-post-date: #5a5a5aa6;
+    /* font-size: 160%; */
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background: var(--color-background);
+    color: var(--color-primary-text);
+  }
+  
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+ 

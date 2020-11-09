@@ -1,0 +1,61 @@
+.Menu {
+    background-color: black;
+    padding: 0.8rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 2.2rem;
+    flex-wrap: wrap;
+    
+}
+
+.Menu p {
+    margin: 0.8rem 1rem;
+    font-size: 1rem;
+}
+
+.Menu .drop {
+    display: none;
+}
+
+.Menu .optionsT {
+    display: unset;
+}
+
+.Menu button {    
+    border-width: 0;
+    background-color: black;
+    cursor: pointer;
+}
+.Menu button:hover {   
+    background-color: #000000ff; 
+}
+
+.Menu img {
+    filter: invert(1);
+}
+.Menu .imageRotate{
+    transform: rotate(180deg)
+}
+
+@media (max-width: 520px) {
+    .Menu {
+        flex-direction: column;
+    }
+
+    .Menu .drop {
+        display: unset;
+    }
+
+    .Menu .optionsT {
+        display: none;
+    }
+
+    .Menu .optionsF {
+        display: unset;
+    }
+
+    
+  }

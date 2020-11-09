@@ -1,0 +1,96 @@
+.Post {
+    background-color: var(--color-post-bg);
+    display: flex;
+    flex-direction: column;
+    color: var(--color-post-text);
+    margin-bottom: 1rem;
+}
+
+.headTab {
+    display: flex;
+    align-items: flex-start;
+}
+
+.headTab img {
+    margin: 10px;
+}
+
+.headTab p {
+    margin-top: 10px;
+}
+
+.headTab .date {
+    font-size: 0.7rem;
+}
+
+.headTab :nth-child(3) {
+    flex: 2;
+    text-align: right;
+    padding-right: 10px;
+    color: var(--color-post-date);
+}
+
+.textTab{
+    margin: 0 16px;
+    text-align: left;
+}
+
+.textTab p {
+    margin: 0 0 16px;
+    font-size: 1rem;
+}
+
+.likeTab {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #000000;
+}
+
+.likeTab img {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+.likeTab .selected {
+    background-color: var(--color-background);
+}
+
+/* .likeTab img:hover {
+    background-color: var(--color-background);
+} */
+
+.addComment {
+    height:2.8rem;
+    width: 80%;
+    margin: 1rem 0;
+}
+
+.Post .reply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Post .reply img {
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 520px) {
+    .headTab {
+        flex-direction: column;
+        align-items: center;
+    }
+    .headTab p {
+        margin: 0;
+    }
+    .headTab .date {
+        padding: 0;
+        margin: 0 0 1rem;
+    }
+    
+    
+  }
