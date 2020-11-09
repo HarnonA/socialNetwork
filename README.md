@@ -24,6 +24,10 @@
 <p>cd front</p>
 <p>npm i</p>
 <p>npm start</>
+  
+<h4>To auth</h4>
+<p>user@email.com<p>
+<p>123456<p>
 
 <h1>TODO</h1>
 <p>Pagination<p>
