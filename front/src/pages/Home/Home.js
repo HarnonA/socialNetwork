@@ -64,7 +64,7 @@ function Home(props) {
     return (
       <div className="feed">
         <h1>Hello, {user.userName} </h1>
-        <p>Parent {user.posts.length}</p>
+        
         <WritePost setUser={setUser} user={user} />
 
 
