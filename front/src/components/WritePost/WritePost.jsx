@@ -34,11 +34,7 @@ function WiretPost(params) {
 
     return (
         <div className="WritePost">
-            <p>Child {params.user.posts.length}</p>
-
-            {console.log("Child " + currentUser.posts.length)}
-            {/* {console.log("Meu user")}
-            {console.log(user)} */}
+         
             <form  >
                 <textarea className="writeForm" name="comment"
                     placeholder="Your text" autoComplete="off"></textarea>
