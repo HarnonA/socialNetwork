@@ -1,4 +1,4 @@
-# Social netword
+# Social network
 <h4>Whit this application is possible to sign in, sign up, post, reply comments, like and dislike posts</h4>
 
 <h1>Getting started</h1>
@@ -7,14 +7,20 @@
 <p>git clone https://github.com/HarnonA/socialNetwork.git</p>
 
 <h4>Go to that file</h4>
-<p>cd socialNetwor</p>
+<p>cd socialNetwork</p>
 
-<h4>For the back-end</h4>
+<h2>For the back-end</h2>
 <p>cd back</p>
 <p>npm i</p>
 <p>npm start</>
+  
+<h4>To load db</h4>
+<p>Go to models/users.model.js<p>
+<p>Uncomment lines 38 to 68<p>
+<p>Comment those lines again or it will add data every time it runs<p>
+  
 
-<h4>For the front-end</h4>
+<h2>For the front-end</h2>
 <p>cd front</p>
 <p>npm i</p>
 <p>npm start</>
