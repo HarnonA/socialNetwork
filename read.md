@@ -1,9 +1,10 @@
 # Meal API
 With this application is possible to sign in, list, search and look recipes instructions, also watch the recipe video on youtube.
 
-## Technologies	
+## Requirements	
 * NPM or yar
 * Git
+
 ## Technologies	
 * React
 * React Table	
@@ -18,7 +19,7 @@ With this application is possible to sign in, list, search and look recipes inst
 $ git clone https://github.com/HarnonA/mealAPI.git
 ```
 
-### Go to that file
+### Go to the file
 ```bash
 # Change directory
 $ cd mealAPI
@@ -26,7 +27,7 @@ $ cd mealAPI
 
 ### Run the front-end
 ```bash
-# For the front-end
+# Build and run front-end
 $ cd front
 $ npm i
 $ npm start
