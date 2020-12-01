@@ -1,9 +1,9 @@
 # Meal API
 <h4>With this application is possible to sign in, list, search and look recipes instructions, also watch the recipe video on youtube. </h4>
 
-<h3>Requirements</h3>
-<p>Git</p>
-<p>NPM or yarn</p>
+# Technologies
+* NPM or yarn
+* Git
 
 # Technologies
 * Ract
@@ -17,11 +17,18 @@
 
 
 <h4>Download this repo</h4>
-<p>git clone https://github.com/HarnonA/mealAPI.git</p>
+```bash
+# Download repo with git
+$ git clone https://github.com/HarnonA/mealAPI.git
+```
 
 <h4>Go to that file</h4>
-<p>cd mealAPI</p>
+```bash
+# Change directory
+$ cd mealAPI
+```
 
+<h4>Run front-end</h4>
 ```bash
 # For the front-end
 $ cd front
@@ -30,13 +37,19 @@ $ npm start
 ```
 
 <h4>To auth</h4>
-<p>user@email.com<p>
-<p>123456<p>
-
+```bash
+# E-mail and password
+$ user@email.com
+$ 123456
+```
+ 
+  
+# TODO
+* Filter without buttons
+* Responsive table
+* Back-end
 <h1>TODO</h1>
-<p>Filter without buttons</p>
-<p>Responsive table</p>
-<p>back-end<p>
+
 
 
 
