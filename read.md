@@ -17,6 +17,7 @@
 
 
 <h4>Download this repo</h4>
+# How to run
 ```bash
 # Clone Repository
 $ git clone https://github.com/HarnonA/mealAPI.git
