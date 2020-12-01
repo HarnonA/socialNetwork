@@ -16,7 +16,7 @@
 <img src="https://firebasestorage.googleapis.com/v0/b/image-983ee.appspot.com/o/preview.png?alt=media" alt="preview" />
 
 
-<h4>Download this repo</h4>
+
 # How to run
 ```bash
 # Clone Repository
@@ -30,7 +30,7 @@ $ git clone https://github.com/HarnonA/mealAPI.git
 * Filter without buttons
 * Responsive table
 * Back-end
-<h1>TODO</h1>
+
 
 
 
