@@ -18,7 +18,7 @@
 
 <h4>Download this repo</h4>
 ```bash
-# Download repo with git
+# Clone Repository
 $ git clone https://github.com/HarnonA/mealAPI.git
 ```
 
