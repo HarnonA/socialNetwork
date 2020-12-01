@@ -22,26 +22,7 @@
 $ git clone https://github.com/HarnonA/mealAPI.git
 ```
 
-<h4>Go to that file</h4>
-```bash
-# Change directory
-$ cd mealAPI
-```
 
-<h4>Run front-end</h4>
-```bash
-# For the front-end
-$ cd front
-$ npm i
-$ npm start
-```
-
-<h4>To auth</h4>
-```bash
-# E-mail and password
-$ user@email.com
-$ 123456
-```
  
   
 # TODO
