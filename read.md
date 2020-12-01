@@ -5,10 +5,11 @@
 <p>Git</p>
 <p>NPM or yarn</p>
 
-<h3>Technologies</h3>
-<p>React</p>
-<p>React Table</p>
-<p>Redux</p>
+# Technologies
+* Ract
+* Ract Table
+* Redux
+
 
 <h1>Getting started</h1>
 
